@@ -1,0 +1,15 @@
+int main()
+{
+    int NTerminos, i, a=0, b=1,c=1;
+    printf("Ingrese el numero de términos que desea observar: ");
+    scanf("%i", &NTerminos);
+    printf ("1, ");
+    for(i=1; i<= NTerminos; i++){
+        c = a + b;
+        a=b;
+        b=c;
+        
+        printf("%i , ",c);
+    }
+    return 0;
+}
