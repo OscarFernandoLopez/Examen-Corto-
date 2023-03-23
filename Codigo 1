@@ -1,0 +1,8 @@
+int main()
+{
+    int a = 21069;
+    char nombre[] = "Oscar Fernando López Godínez";
+    printf("Hola mi nombre es: %s y mi numero de carnet es: %d", nombre, a);
+
+    return 0;
+}
