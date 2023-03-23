@@ -1,0 +1,9 @@
+int main()
+{
+    float a, Celcius;
+    printf("Ingrese la temperatura en grados Fahrenheit: ");
+    scanf("%f", &a);
+    Celcius = (a-32)*5/9;
+    printf("La temperatura en grados Celcius es: %f", Celcius);
+    return 0;
+}
